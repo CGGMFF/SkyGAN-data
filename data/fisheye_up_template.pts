@@ -1,0 +1,552 @@
+{
+	"$schema": "https://www.ptgui.com/schemas/project_v31.schema.json",
+	"contenttype": "com.ptgui.project_pro",
+	"software": "PTGui Pro 12.2",
+	"fileversion": 31,
+	"compatibleversion": 6,
+	"compatibleapplication": "PTGui 11",
+	"project": {
+		"pathseparator": "\\",
+		"portraitcameraorientation": "clockwise",
+		"metadata": {
+			"resolution": 3e2,
+			"overridelatitude": 4.98548100000000005e1,
+			"overridelongitude": 1.42911199999999994e1,
+			"overridedirection": 0
+		},
+		"outputcomponents": {
+			"hdrlayers": false,
+			"hdrblendplanes": false,
+			"hdrblended": true,
+			"ldrpanorama": true,
+			"ldrlayers": false,
+			"ldrblendplanes": false
+		},
+		"hdrsettings": {
+			"tonemappanorama": false,
+			"fileformat": "exr",
+			"tiffparams": {
+				"compression": "lzw",
+				"datatype": "f32",
+				"alphatype": "associated"
+			},
+			"psdparams": {
+				"compression": "none",
+				"datatype": "f32",
+				"layermode": "layered"
+			},
+			"exrparams": {
+				"alphamode": "withalpha",
+				"bitdepth": "half",
+				"compression": "PIZ"
+			},
+			"tonemapsettings": {
+				"targetbrightness": 4.50000000000000011e-1,
+				"autoboost": false,
+				"boostshadows": 2e1,
+				"reducehighlights": 2e1,
+				"compression": 1.49999999999999994e-1
+			},
+			"exposurefusionsettings": {
+				"targetbrightness": 5e-1,
+				"boostshadows": 0,
+				"reducehighlights": 0,
+				"sigma": 2.00000000000000011e-1
+			},
+			"hdrmethod": "truehdr",
+			"bracketedflow": "auto",
+			"noisefloor": 0,
+			"exposurefusesinglebrackets": false,
+			"precision": "float"
+		},
+		"projectsettings": {
+			"alignsettings": {
+				"generatecp": true,
+				"optimize": true,
+				"roughlyalign": true,
+				"straighten": true,
+				"fit": true,
+				"chooseprojection": true,
+				"optimizeexposure": false,
+				"optimizeexposureonlyifaligned": true,
+				"isprealigned": false
+			},
+			"templatesettings": {
+				"lens": true,
+				"imageparams": true,
+				"preservepanoramaorientation": false,
+				"mask": false,
+				"panoramasettings": true,
+				"projectsettings": true,
+				"optimizer": false,
+				"linkimages": "fromtemplate"
+			},
+			"batchstitchersettings": {
+				"align": false,
+				"stitch": true,
+				"stitchonlyifcontrolpoints": true
+			},
+			"defaultfilenaming": {
+				"defaultprojectfilenamemode": "sameassourceimage",
+				"defaultprojectfilenamecustom": "",
+				"defaultprojectfoldermode": "sameassourceimage",
+				"defaultprojectfoldercustom": "",
+				"defaultpanoramafilenamemode": "sameasproject",
+				"defaultpanoramafilenamecustom": "",
+				"defaultpanoramafoldermode": "sameasproject",
+				"defaultpanoramafoldercustom": "",
+				"userelativesourceimagepaths": true
+			},
+			"hdrsettings": {
+				"hdrlinkmode": "hdrlink",
+				"hdrlinkwithoutasking": false,
+				"hdraskmode": "ask"
+			},
+			"optimizeraskreinitialize": true,
+			"useexifforbatchbuilder": false,
+			"useexif": false,
+			"honorexiforientation": true,
+			"multilenscompositeimagesupport": "loadtwice",
+			"autosetpanoramato360equirect": true,
+			"useorientationsensordata": true
+		},
+		"outputsize": {
+			"mode": "fixed",
+			"pixels": 3.3554432e7
+		},
+		"previewsizerelative": 2.5e-1,
+		"blend": {
+			"seamfinding": true,
+			"seamfindingprecision": -3,
+			"engine": "zerooverlap",
+			"redmasktransparent": true,
+			"fillholes": false,
+			"maskpushseams": false
+		},
+		"hasbeenoptimized": false,
+		"autocpdone": false,
+		"simpleproject": false,
+		"templateapplied": true,
+		"panoramaparams": {
+			"outputfile": "",
+			"hfov": 3.6e2,
+			"vfov": 1.8e2,
+			"projection": "equirectangular",
+			"projectioncompression": {
+				"rectilinearx": 0,
+				"rectilineary": 0,
+				"cylindricaly": 0,
+				"transversecylindricalx": 0,
+				"vedutismox": 1,
+				"transversevedutismoy": 1,
+				"stereographic": 1,
+				"rectifisheye": 1
+			},
+			"interpolator": "default",
+			"fileformat": "jpeg",
+			"jpegparams": {
+				"quality": 80
+			},
+			"tiffparams": {
+				"compression": "packbits",
+				"datatype": "u8",
+				"alphatype": "associated"
+			},
+			"psdparams": {
+				"compression": "packbits",
+				"datatype": "u8",
+				"layermode": "layered"
+			},
+			"qtvrparams": {
+				"windowsize": [800,600],
+				"cubesizeauto": true,
+				"cubesize": 1000,
+				"jpegquality": 70,
+				"includepreview": false,
+				"pan": {
+					"initial": 0,
+					"min": -1.8e2,
+					"max": 1.8e2
+				},
+				"tilt": {
+					"initial": 0,
+					"min": -9e1,
+					"max": 9e1
+				},
+				"fov": {
+					"initial": 9e1,
+					"min": 1e1,
+					"max": 1.2e2
+				},
+				"autolimits": true
+			},
+			"outputcrop": [0,0,1,1],
+			"outputiccprofile": "21b9637c3ef03b72e722bca0bf434b02",
+			"useiccprofilefromsourceimages": true
+		},
+		"optimizer": {
+			"hvcpmode": "twopass",
+			"linkpitch": false,
+			"linkroll": false,
+			"simplemode": true,
+			"simplemodesettings": {
+				"optimizefov": true,
+				"optimizelens": "heavyplusshift",
+				"anchorimagegroup": 0,
+				"anchorimage": null
+			}
+		},
+		"globallenses": [
+			{
+				"lens": {
+					"params": {
+						"projection": "circularfisheye",
+						"fisheyefactor": -5.05769000000000024e-1,
+						"focallength": 8.26983873252475732,
+						"theoreticalfocallength": 8,
+						"cropcircleradius": 1.16662137556782497e1,
+						"cropcenteroffset": {
+							"longside": 0,
+							"shortside": 0
+						},
+						"a": 0,
+						"b": 0,
+						"c": 0,
+						"sensordiagonal": 4.32666153055680027e1,
+						"mirrored": false
+					},
+					"optimizerflags": {
+						"fov": true,
+						"a": true,
+						"b": true,
+						"c": true,
+						"fisheyefactor": false
+					}
+				},
+				"shift": {
+					"params": {
+						"longside": 0,
+						"shortside": 0
+					},
+					"optimizerflags": {
+						"longside": true,
+						"shortside": true
+					}
+				},
+				"shear": {
+					"params": {
+						"hshear": 0,
+						"vshear": 0
+					},
+					"optimizerflags": {
+						"hshear": false,
+						"vshear": false
+					}
+				},
+				"photometric": {
+					"optimizevignetting": "no",
+					"vignettingcoefficients": []
+				}
+			}
+		],
+		"globalcameracurves": [],
+		"photometric": {
+			"whitepoint": null,
+			"exposureoffset": 0,
+			"exposurecompensation": false,
+			"optimizeexposure": "no",
+			"optimizewhitebalance": "no",
+			"optimizeflare": "no"
+		},
+		"postprocess": {
+			"toningfromlinear": {
+				"luminancecurve": {
+					"a": 0,
+					"b": 0
+				},
+				"saturationfactor": 1
+			},
+			"additionaltoning": {
+				"luminancecurve": {
+					"a": 0,
+					"b": 0
+				},
+				"saturationfactor": 1
+			}
+		},
+		"imagegroups": [
+			{
+				"size": [6256,4172],
+				"individuallens": null,
+				"individualshift": null,
+				"individualshear": null,
+				"individualcropcenter": null,
+				"globallens": 0,
+				"viewrotate": "auto",
+				"blendweight": 1e2,
+				"position": {
+					"params": {
+						"yaw": -1.8e2,
+						"pitch": 9e1,
+						"roll": 0,
+						"vpx": 0,
+						"vpy": 0,
+						"vpd": 0,
+						"vppan": 0,
+						"vptilt": 0
+					},
+					"optimizerflags": {
+						"yaw": false,
+						"pitch": false,
+						"roll": false,
+						"vp": "reset"
+					}
+				},
+				"maskbitmap": null,
+				"linkable": {
+					"position": {
+						"params": {
+							"yaw": -1.8e2,
+							"pitch": 9e1,
+							"roll": 0,
+							"vpx": 0,
+							"vpy": 0,
+							"vpd": 0,
+							"vppan": 0,
+							"vptilt": 0
+						},
+						"optimizerflags": {
+							"yaw": false,
+							"pitch": false,
+							"roll": false,
+							"vp": "reset"
+						}
+					},
+					"maskbitmap": null
+				},
+				"images": [
+					{
+						"filename": "IMG_4721.tif",
+						"metadata": {
+							"aperture": 2.2e1,
+							"exposuretime": 2.50000000000000005e-4,
+							"iso": 1e2,
+							"filetimestamp": 1621674023,
+							"filesize": 122330970,
+							"wbmode": "manual",
+							"exposurebias": 0,
+							"pixelformat": {
+								"datatype": "u16",
+								"channels": 3
+							},
+							"iccprofile": "21b9637c3ef03b72e722bca0bf434b02"
+						},
+						"usecontrolpoints": true,
+						"include": true,
+						"includeinpreview": true,
+						"useforphotometric": true,
+						"photometric": {
+							"flare": 0,
+							"exposureoffset": 0,
+							"whitepoint": {
+								"temperature": 5400
+							},
+							"globalcameracurve": null
+						},
+						"linkable": null
+					},
+					{
+						"filename": "IMG_4722.tif",
+						"metadata": {
+							"aperture": 2.2e1,
+							"exposuretime": 1.00000000000000002e-3,
+							"iso": 1e2,
+							"filetimestamp": 1621674041,
+							"filesize": 119925756,
+							"wbmode": "manual",
+							"exposurebias": 0,
+							"pixelformat": {
+								"datatype": "u16",
+								"channels": 3
+							},
+							"iccprofile": "21b9637c3ef03b72e722bca0bf434b02"
+						},
+						"usecontrolpoints": true,
+						"include": true,
+						"includeinpreview": true,
+						"useforphotometric": true,
+						"photometric": {
+							"flare": 0,
+							"exposureoffset": 0,
+							"whitepoint": {
+								"temperature": 5400
+							},
+							"globalcameracurve": null
+						},
+						"linkable": null
+					},
+					{
+						"filename": "IMG_4723.tif",
+						"metadata": {
+							"aperture": 2.2e1,
+							"exposuretime": 4.00000000000000008e-3,
+							"iso": 1e2,
+							"filetimestamp": 1621676005,
+							"filesize": 118114548,
+							"wbmode": "manual",
+							"exposurebias": 0,
+							"pixelformat": {
+								"datatype": "u16",
+								"channels": 3
+							},
+							"iccprofile": "21b9637c3ef03b72e722bca0bf434b02"
+						},
+						"usecontrolpoints": true,
+						"include": true,
+						"includeinpreview": true,
+						"useforphotometric": true,
+						"photometric": {
+							"flare": 0,
+							"exposureoffset": 0,
+							"whitepoint": {
+								"temperature": 5400
+							},
+							"globalcameracurve": null
+						},
+						"linkable": null
+					},
+					{
+						"filename": "IMG_4724.tif",
+						"metadata": {
+							"aperture": 2.2e1,
+							"exposuretime": 1.66666666666666664e-2,
+							"iso": 1e2,
+							"filetimestamp": 1621676023,
+							"filesize": 119204272,
+							"wbmode": "manual",
+							"exposurebias": 0,
+							"pixelformat": {
+								"datatype": "u16",
+								"channels": 3
+							},
+							"iccprofile": "21b9637c3ef03b72e722bca0bf434b02"
+						},
+						"usecontrolpoints": true,
+						"include": true,
+						"includeinpreview": true,
+						"useforphotometric": true,
+						"photometric": {
+							"flare": 0,
+							"exposureoffset": 0,
+							"whitepoint": {
+								"temperature": 5400
+							},
+							"globalcameracurve": null
+						},
+						"linkable": null
+					},
+					{
+						"filename": "IMG_4725.tif",
+						"metadata": {
+							"aperture": 2.2e1,
+							"exposuretime": 6.66666666666666657e-2,
+							"iso": 1e2,
+							"filetimestamp": 1621676041,
+							"filesize": 119421492,
+							"wbmode": "manual",
+							"exposurebias": 0,
+							"pixelformat": {
+								"datatype": "u16",
+								"channels": 3
+							},
+							"iccprofile": "21b9637c3ef03b72e722bca0bf434b02"
+						},
+						"usecontrolpoints": true,
+						"include": true,
+						"includeinpreview": true,
+						"useforphotometric": true,
+						"photometric": {
+							"flare": 0,
+							"exposureoffset": 0,
+							"whitepoint": {
+								"temperature": 5400
+							},
+							"globalcameracurve": null
+						},
+						"linkable": null
+					},
+					{
+						"filename": "IMG_4726.tif",
+						"metadata": {
+							"aperture": 2.2e1,
+							"exposuretime": 2.5e-1,
+							"iso": 1e2,
+							"filetimestamp": 1621676054,
+							"filesize": 68966886,
+							"wbmode": "manual",
+							"exposurebias": 0,
+							"pixelformat": {
+								"datatype": "u16",
+								"channels": 3
+							},
+							"iccprofile": "21b9637c3ef03b72e722bca0bf434b02"
+						},
+						"usecontrolpoints": true,
+						"include": true,
+						"includeinpreview": true,
+						"useforphotometric": true,
+						"photometric": {
+							"flare": 0,
+							"exposureoffset": 0,
+							"whitepoint": {
+								"temperature": 5400
+							},
+							"globalcameracurve": null
+						},
+						"linkable": null
+					},
+					{
+						"filename": "IMG_4727.tif",
+						"metadata": {
+							"aperture": 2.2e1,
+							"exposuretime": 1,
+							"iso": 1e2,
+							"filetimestamp": 1621676068,
+							"filesize": 63708968,
+							"wbmode": "manual",
+							"exposurebias": 0,
+							"pixelformat": {
+								"datatype": "u16",
+								"channels": 3
+							},
+							"iccprofile": "21b9637c3ef03b72e722bca0bf434b02"
+						},
+						"usecontrolpoints": true,
+						"include": true,
+						"includeinpreview": true,
+						"useforphotometric": true,
+						"photometric": {
+							"flare": 0,
+							"exposureoffset": 0,
+							"whitepoint": {
+								"temperature": 5400
+							},
+							"globalcameracurve": null
+						},
+						"linkable": null
+					}
+				]
+			}
+		],
+		"controlpoints": []
+	},
+	"assets": [
+		{
+			"id": "21b9637c3ef03b72e722bca0bf434b02",
+			"contenttype": "application/vnd.iccprofile",
+			"size": 596,
+			"encodedsize": 796,
+			"data": "AAACVGxjbXMEMAAAbW50clJHQiBYWVogB+UABQAWAAkAKgAMYWNzcE1TRlQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPbWAAEAAAAA0y1sY21zAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALZGVzYwAAAQgAAAA+Y3BydAAAAUgAAABMd3RwdAAAAZQAAAAUY2hhZAAAAagAAAAsclhZWgAAAdQAAAAUYlhZWgAAAegAAAAUZ1hZWgAAAfwAAAAUclRSQwAAAhAAAAAgZ1RSQwAAAhAAAAAgYlRSQwAAAhAAAAAgY2hybQAAAjAAAAAkbWx1YwAAAAAAAAABAAAADGVuVVMAAAAiAAAAHABzAFIARwBCACAASQBFAEMANgAxADkANgA2AC0AMgAuADEAAG1sdWMAAAAAAAAAAQAAAAxlblVTAAAAMAAAABwATgBvACAAYwBvAHAAeQByAGkAZwBoAHQALAAgAHUAcwBlACAAZgByAGUAZQBsAHlYWVogAAAAAAAA9tYAAQAAAADTLXNmMzIAAAAAAAEMSgAABeP///MqAAAHmwAA/Yf///ui///9owAAA9gAAMCUWFlaIAAAAAAAAG+UAAA47gAAA5BYWVogAAAAAAAAJJ0AAA+DAAC2vlhZWiAAAAAAAABipQAAt5AAABjecGFyYQAAAAAAAwAAAAJmZgAA8qcAAA1ZAAAT0AAACltjaHJtAAAAAAADAAAAAKPXAABUewAATM0AAJmaAAAmZgAAD1w="
+		}
+	]
+}
